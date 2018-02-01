@@ -1,0 +1,45 @@
+{
+	"scripts": {
+		"start": "http-server ./public -c-1",
+		"test": "jest",
+		"build": "webpack",
+		"watch": "webpack --watch",
+		"format": "prettier --write --single-quote --print-width=120 --use-tabs=true --tab-width=4 \"js/**/*.{js,jsx}\" ",
+		"lint": "eslint **/*.{js,jsx} --quiet",
+		"comb": "csscomb ./css --verbose",
+		"deploy": "npm run build && surge public"
+	},
+	"dependencies": {
+		"jsonp": "^0.2.1",
+		"react": "^16.0.0",
+		"react-dom": "^16.0.0",
+		"react-router": "^4.2.0",
+		"react-router-dom": "^4.2.2",
+		"webpack": "^3.6.0"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-eslint": "^8.0.1",
+		"babel-loader": "^7.1.2",
+		"babel-preset-env": "^1.6.0",
+		"babel-preset-es2015": "^6.24.1",
+		"babel-preset-react": "^6.24.1",
+		"csscomb": "^4.2.0",
+		"enzyme": "^3.1.1",
+		"enzyme-adapter-react-16": "^1.0.4",
+		"eslint": "^4.8.0",
+		"eslint-config-prettier": "^2.6.0",
+		"eslint-config-react": "^1.1.7",
+		"eslint-loader": "^1.9.0",
+		"eslint-plugin-react": "^7.4.0",
+		"http-server": "^0.11.1",
+		"jest": "^21.2.1",
+		"prettier": "^1.7.4"
+	},
+	"name": "Game-Pass",
+	"Version": "0.1.0",
+	"description": "Single page website for fictional game streaming company",
+	"repository": "",
+	"author": "Thiago HPC",
+	"private": "true"
+}

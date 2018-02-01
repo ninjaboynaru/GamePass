@@ -1,0 +1,150 @@
+{
+	"RANDOM": {
+		"name":"Random Games",
+		"description":"Random Games",
+		"randomizeOffset":true,
+		"randomOffsetMin":0,
+		"randomOffsetMax":2500,
+		"options": {
+			"resource":"games",
+			"fields": ["id", "name", "deck", "image", "original_release_date"]
+		}
+	},
+
+	"PS2_GAMES_RANDOM": {
+		"name":"Playstation 2 Games",
+		"description":"Random Playstation 2 Games",
+		"randomizeOffset":true,
+		"randomOffsetMin":0,
+		"randomOffsetMax":1500,
+		"options": {
+			"resource":"games",
+			"filter":[ {"field":"platforms", "value":19} ],
+			"fields": ["id", "name", "deck", "image", "original_release_date"]
+		}
+	},
+
+	"PS3_GAMES_RANDOM": {
+		"name":"Playstation 3 Games",
+		"description":"Random Playstation 3 Games",
+		"randomizeOffset":true,
+		"randomOffsetMin":0,
+		"randomOffsetMax":1500,
+		"options": {
+			"resource":"games",
+			"filter":[ {"field":"platforms", "value":35} ],
+			"fields": ["id", "name", "deck", "image", "original_release_date"]
+		}
+	},
+
+	"PS4_GAMES_RANDOM": {
+		"name":"Playstation 4 Games",
+		"description":"Random Playstation 4 Games",
+		"randomizeOffset":true,
+		"randomOffsetMin":0,
+		"randomOffsetMax":1500,
+		"options": {
+			"resource":"games",
+			"filter":[ {"field":"platforms", "value":146} ],
+			"fields": ["id", "name", "deck", "image", "original_release_date"]
+		}
+	},
+
+
+	"XBOX_360_GAMES_RANDOM": {
+		"name":"XBOX 360 Games",
+		"description":"Random XBOX 360 Games",
+		"randomizeOffset":true,
+		"randomOffsetMin":0,
+		"randomOffsetMax":1500,
+		"options": {
+			"resource":"games",
+			"filter":[ {"field":"platforms", "value":20} ],
+			"fields": ["id", "name", "deck", "image", "original_release_date"]
+		}
+	},
+	"XBOX_ONE_GAMES_RANDOM": {
+		"name":"XBOX ONE Games",
+		"description":"Random XBOX ONE Games",
+		"randomizeOffset":true,
+		"randomOffsetMin":0,
+		"randomOffsetMax":200,
+		"options": {
+			"resource":"games",
+			"filter":[ {"field":"platforms", "value":145} ],
+			"fields": ["id", "name", "deck", "image", "original_release_date"]
+		}
+	},
+
+	"GAME_CUBE_GAMES_RANDOM": {
+		"name":"GameCube Games",
+		"description":"Random GameCube Games",
+		"randomizeOffset":true,
+		"randomOffsetMin":0,
+		"randomOffsetMax":200,
+		"options": {
+			"resource":"games",
+			"filter":[ {"field":"platforms", "value":23} ],
+			"fields": ["id", "name", "deck", "image", "original_release_date"]
+		}
+	},
+
+	"PC_GAMES_RANDOM": {
+		"name":"PC Games",
+		"description":"Random PC Games",
+		"randomizeOffset":true,
+		"randomOffsetMin":0,
+		"randomOffsetMax":23000,
+		"options": {
+			"resource":"games",
+			"filter":[ {"field":"platforms", "value":94} ],
+			"fields": ["id", "name", "deck", "image", "original_release_date"]
+		}
+	},
+	
+	"BROWSER_GAMES_RANDOM": {
+		"name":"Browser Games",
+		"description":"Random Browser Games",
+		"randomizeOffset":true,
+		"randomOffsetMin":0,
+		"randomOffsetMax":23000,
+		"options": {
+			"resource":"games",
+			"filter":[ {"field":"platforms", "value":140} ],
+			"fields": ["id", "name", "deck", "image", "original_release_date"]
+		}
+	},
+
+	"UPCOMING_GAMES": {
+		"name":"Upcoming Games",
+		"description":"Games soon to be released",
+		"randomizeOffset":true,
+		"randomOffsetMin":0,
+		"randomOffsetMax":100,
+		"options": {
+			"resource":"games",
+			"filter":[ {"field":"expected_release_year", "value":2018} ],
+			"fields": ["id", "name", "deck", "image", "original_release_date"]
+		}
+	},
+
+	"PLATFORMS-DEV-TESTS": {
+		"name":"Platforms",
+		"description":"Game Platforms",
+		"randomizeOffset":false,
+		"randomOffsetMin":0,
+		"randomOffsetMax":0,
+		"options": {
+			"resource":"platforms",
+			"offset":140,
+			"fields": ["id", "name"]
+		}
+	}
+
+
+
+}
+
+
+
+

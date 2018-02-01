@@ -1,0 +1,32 @@
+
+
+
+/*.slider {
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+.slide {
+	display:inline-block;
+	white-space:initial;
+}*/
+
+
+.js-slider {
+	position: relative;
+}
+
+.js-slider-slide {
+	position: relative;
+
+	transition-duration: 0.5s;
+	white-space: nowrap;
+}
+
+
+.js-slider-slide-element {
+	display: inline-block;
+
+	white-space: initial;
+}
+

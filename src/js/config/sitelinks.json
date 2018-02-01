@@ -1,0 +1,54 @@
+{
+	"headerLinks": [
+		{
+			"text":"Home",
+			"href":"/"
+		},
+		{
+			"text":"About",
+			"href":"/about"
+		}
+	],
+
+	"footerLinks": [
+		{
+			"text":"Partnerships",
+			"href":"/"
+		},
+		{
+			"text":"API",
+			"href":"www.giantbomb.com/api/"
+		},
+		{
+			"text":"Terms of Use",
+			"href":"/"
+		},
+		{
+			"text":"Privacy Policy",
+			"href":"/"
+		},
+		{
+			"text":"Careers",
+			"href":"/"
+		}
+	],
+
+	"socialMediaLinks": [
+		{
+			"text":"Facebook",
+			"href":"/"
+		},
+		{
+			"text":"Twitter",
+			"href":"www.giantbomb.com/api/"
+		},
+		{
+			"text":"Youtube",
+			"href":"/"
+		},
+		{
+			"text":"Twitch",
+			"href":"/"
+		}
+	]
+}
